@@ -20,3 +20,4 @@ $app->get('/all', function () use ($app) {
 });
 */
 $app->get('/all', 'DepController@getAll');
+$app->get('/porritas', 'DepController@saludaPorritas');

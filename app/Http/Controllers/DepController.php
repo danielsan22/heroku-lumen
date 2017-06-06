@@ -21,10 +21,13 @@ class DepController extends Controller
 
     public function getAll() {
       //$results = app('db')->select("SELECT * FROM depar");
-      //$results2 = DB::select("SELECT * FROM depar");
+      $results2 = DB::select("SELECT * FROM depar");
 
-      //return $results2;
-      return "{'hola':'mundo'}";
+      return $results2;
+      //return "{'hola':'mundo'}";
+    }
+    public function saludaPorritas(){
+      return "Kp2 mi porritas, ya jala este pedo";
     }
 
     //
