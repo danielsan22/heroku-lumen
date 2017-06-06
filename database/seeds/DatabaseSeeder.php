@@ -30,5 +30,10 @@ class DatabaseSeeder extends Seeder
         'Precio' => 22562.51,
         'Estado' => "Sin construir"
       ]);
+      DB::table('depar')->insert([
+        'Precio' => 3.14156789,
+        'Estado' => "Prueba de Fuego"
+      ]);
+
     }
 }
