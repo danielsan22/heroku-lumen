@@ -18,10 +18,11 @@ class DepController extends Controller
 
     public function getAll() {
       //$results = app('db')->select("SELECT * FROM depar");
-      DB::table('depar')->insert([
+      /*DB::table('depar')->insert([
         'Precio' => 28000.45,
         'Estado' => "Dinamic"
       ]);
+      */
       $results2 = DB::select("SELECT * FROM depar");
 
       return $results2;
