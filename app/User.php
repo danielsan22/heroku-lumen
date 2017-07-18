@@ -26,10 +26,9 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
     /**
      * EL otro test.s
      * sdfsdfsdf
+     * 
      *
-     * sdfsdfsdf
      *
-     * sdf
      */
     /**
      * The attributes excluded from the model's JSON form.
