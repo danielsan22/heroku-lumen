@@ -20,7 +20,10 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
     protected $fillable = [
         'name', 'email',
     ];
-
+    /**
+     * El test del git flow.
+     */
+    
     /**
      * The attributes excluded from the model's JSON form.
      *
