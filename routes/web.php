@@ -20,4 +20,5 @@ $app->get('/all', function () use ($app) {
 });
 */
 $app->get('/all', 'DepController@getAll');
-$app->get('/porritas', 'DepController@saludaPorritas');
+$app->get('/pusherTest','PusherController@triggerEvent');
+//$app->get('/porritas', 'DepController@saludaPorritas');
